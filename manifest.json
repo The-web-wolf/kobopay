@@ -1,6 +1,6 @@
 {
  "name": "Kobopay Money App",
- "start_url" : "/index",
+ "start_url" : "./kobopay/index",
  "display" : "standalone",
  "theme_color" : "#5e72e4",
  "background_color" : "#ffffff",

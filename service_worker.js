@@ -2,7 +2,7 @@
 
 //Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener('install', function(event) {
-  var indexPage = new Request('/kobopay');
+  var indexPage = new Request('/index');
   console.log(indexPage)
   event.waitUntil(
     fetch(indexPage).then(function(response) {
